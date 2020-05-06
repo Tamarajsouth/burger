@@ -1,0 +1,33 @@
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/554/781/small/summer_food_3.jpg");
+}
+
+ul {
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  border-color: #1da1f2;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  border-color: #1da1f2;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+  background-color: white;
+  border-color: #1da1f2;
+  border-style: solid;
+  border-width: 2px;
+}
