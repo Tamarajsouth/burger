@@ -42,7 +42,11 @@
 <ul>
   {{#each burgers}}
     {{#if devoured}}
-      <p>{{id}}. {{burger_name}}</p>
+      <p>{{id}}. {{burger_name}}
+        <span><button class="delete-burger" data-id="{{id}}" data-newdevour=true>
+          {{#if devoured}}Delete!{{else}}{{/if}}
+        </button></span>
+      </p>
     {{/if}}
   {{/each}}
 </ul>
