@@ -1,6 +1,15 @@
 # Burger
 a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)
 
+## Eat-Da-Burger! 
+* a restaurant app that lets users input the names of burgers they'd like to eat.
+
+* Whenever a user submits a burger's name, the app will display the burger -- waiting to be devoured.
+
+* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the bottom of the page under the `Devoured` menu.
+
+* The app stores every burger in a database, whether devoured or not.
+
 ## App Setup
 1. Github Repo called `burger`
 2. make a package.json file by running `npm init` 
