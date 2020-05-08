@@ -10,14 +10,11 @@ a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)
 
 * The app stores every burger in a database, whether devoured or not.
 
-## App Setup
-1. Github Repo called `burger`
-2. make a package.json file by running `npm init` 
-3. install Express npm package `npm i express`
-4. create a `server.js` file
-5. install Handlebars npm package `npm i express-handlebars`
-6. install MySQL npm package `npm i mysql`
-7. require express npm package inside server.js file
+## Utilities Used
+1. Node.js
+2. Express
+3. Express Handlebars npm package
+6. MySQL npm package
 
 ## Directory Structure
 
@@ -44,9 +41,9 @@ a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)
 ├── public
 │   └── assets
 │       ├── css
-│       │   └── burger_style.css
-│       └── img
-│           └── burger.png
+│       │   └── style.css
+│       └── js
+│           └── burgers.js
 │   
 │
 ├── server.js

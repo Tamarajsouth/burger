@@ -1,33 +1,46 @@
 body {
-  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/554/781/small/summer_food_3.jpg");
+  background-color: darkorange;
+  font-family: 'Permanent Marker', cursive;
+  font-size: larger;
 }
 
 ul {
+  font-size: larger;
   padding: 5px;
   margin: 5px;
   background-color: white;
-  border-color: #1da1f2;
+  border-color: #209626;
   border-style: solid;
-  border-width: 2px;
+  border-width: 5px;
 }
 
-.label {
-  font-weight: bold;
+.img-fluid1 {
+  height: 75px;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background-color: white;
-  border-color: #1da1f2;
-  border-style: solid;
-  border-width: 2px;
+.img-fluid2 {
+  height: 75px;
+}
+
+.btn {
+  font-size: larger;
+  background-color: #209626;
+  border-color: gold;
+}
+.btn:hover {
+  background-color: crimson;
+  border-color: gold;
+}
+
+#input-area {
+  font-size: larger;
 }
 
 .form-group {
+  font-size: larger;
   margin-bottom: 5px;
   background-color: white;
-  border-color: #1da1f2;
+  border-color: #209626;
   border-style: solid;
-  border-width: 2px;
+  border-width: 5px;
 }

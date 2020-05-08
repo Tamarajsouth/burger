@@ -1,54 +1,68 @@
-<div class="container"> 
-    <span><h1>Add a Burger</h1></span>
-<form class="create-form">
-
-  <div class="form-group-fluid">
-    <label for="burg">Burger:</label>
-    <input type="text" id="burg" name="burger_name">
-  </div>
+<br>
 <div class="container">
-  <div class="form-group">
-    <label for="devoured">Devoured?</label><br>
-      
-    <input type="radio" name="devoured" value="0" checked>Needs to be Devoured!
+  <div class="text-center">
+    <span>
+      <div class="row">
+        <div class="col-md">
+          <img src="https://image.flaticon.com/icons/svg/1161/1161644.svg" class="img-fluid1">
+        </div>
+        <div class="col-md">
+          <h1 id="title-header">Eat-Da-Burger!</h1>
+        </div>
+        <div class="col-md">
+          <img src="https://image.flaticon.com/icons/svg/1161/1161644.svg" class="img-fluid2">
+        </div>
+    </span>
+    <div class="container">
+      <div class="text-center">
+        <form class="create-form">
+
+          <div class="text-center" id="input-area">
+            <label for="burg">Name your Burger:</label>
+            <input type="text" id="burg" name="burger_name">
+          </div>
+          <div class="container">
+            <div class="form-group">
+              <label for="devoured">Already Devoured? ... or To Be Devoured?</label><br>
+              <input type="radio" name="devoured" value="0" checked>Needs to be Devoured!
+              <br>
+              <input type="radio" name="devoured" value="1">Devoured!
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary">Add your Burger!</button>
+          <br><br />
+        </form>
+      </div>
+    </div>
     <br>
-    <input type="radio" name="devoured" value="1">Devoured!
+    <div class="container">
+      <h2 class="text-center">Burgers to be Devoured:</h2>
+    </div>
   </div>
-
-  </div>
-
-  <button type="submit"class="btn btn-primary">Add Burger:</button>
-</form>
-</div>
-</div>
-</div>
-<h1>Burgers!</h1>
-<h2>Burgers to be Devoured:</h2>
-</div>
-<ul>
-  {{#each burgers}}
+  <ul>
+    {{#each burgers}}
     {{#unless devoured}}
-      <p>{{id}}. {{burger_name}}
-        <span><button class="change-devour" data-id="{{id}}" data-newdevour=true>
-          {{#if devoured}}devoured!{{else}}devour me!{{/if}}
+    <p>{{id}}. {{burger_name}}
+      <span><button class="change-devour" data-id="{{id}}" data-newdevour=true>
+          {{#if devoured}}devoured!{{else}}Devour Me!{{/if}}
         </button></span>
-      </p>
+    </p>
     {{/unless}}
-  {{/each}}
-</ul>
+    {{/each}}
+  </ul>
+  <br>
+  <h2 class="text-center">Devoured Burgers:</h2>
 
-<h2>Devoured Burgers:</h2>
-
-<ul>
-  {{#each burgers}}
+  <ul>
+    {{#each burgers}}
     {{#if devoured}}
-      <p>{{id}}. {{burger_name}}
-        <span><button class="delete-burger" data-id="{{id}}" data-newdevour=true>
+    <p>{{id}}. {{burger_name}}
+      <span><button class="delete-burger" data-id="{{id}}" data-newdevour=true>
           {{#if devoured}}Delete!{{else}}{{/if}}
         </button></span>
-      </p>
+    </p>
     {{/if}}
-  {{/each}}
-</ul>
-</div>
-</div>
+    {{/each}}
+  </ul>
