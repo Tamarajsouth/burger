@@ -2,7 +2,7 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node server.js"
   },
