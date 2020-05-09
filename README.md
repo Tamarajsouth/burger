@@ -9,17 +9,20 @@ a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)
 * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the bottom of the page under the `Devoured` menu.
 
 * The app stores every burger in a database, whether devoured or not.
-
-## UI
-
+--------------
+## User Interface
 ![burgimg](https://i.ibb.co/gvZznFq/Screen-Shot-2020-05-09-at-10-04-26-AM.png)
 
+--------------
 ## Utilities Used
 1. Node.js
 2. Express
 3. Express Handlebars npm package
 6. MySQL npm package
-
+7. MySQL workbench
+8. JawsDB extension 
+9. Heroku
+--------------
 ## Directory Structure
 
 ```
@@ -58,7 +61,5 @@ a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)
         └── main.handlebars
 ```
 
-## Submission Requirements 
-
-* **This assignment must be deployed.** 
-* Submit both the deployed Heroku link to the homework AND the link to the Github Repository!
+## Deployment to Heroku
+* [Eat-Da-Burger App](https://radiant-reef-96507.herokuapp.com/)
