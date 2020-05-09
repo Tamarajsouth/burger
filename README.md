@@ -10,6 +10,10 @@ a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)
 
 * The app stores every burger in a database, whether devoured or not.
 
+## UI
+
+![burgimg](https://i.ibb.co/gvZznFq/Screen-Shot-2020-05-09-at-10-04-26-AM.png)
+
 ## Utilities Used
 1. Node.js
 2. Express
